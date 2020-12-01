@@ -1,0 +1,12 @@
+F:\dasha\hw_python\issue5>coverage run -m unittest discover
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK
+
+F:\dasha\hw_python\issue5>coverage report
+Name           Stmts   Miss  Cover
+----------------------------------
+test_year.py      40      0   100%
+

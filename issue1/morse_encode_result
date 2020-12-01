@@ -1,0 +1,20 @@
+python -m doctest -v -o NORMALIZE_WHITESPACE morse_doctest.py
+Trying:
+    encode('SOS')
+Expecting:
+    '... --- ...'
+ok
+Trying:
+    encode('aaaa') # doctest: +ELLIPSIS
+Expecting:
+    Traceback (most recent call last):
+        ...
+    KeyError: 'a'
+ok
+1 items had no tests:
+    morse_doctest
+1 items passed all tests:
+   2 tests in morse_doctest.encode
+2 tests in 2 items.
+2 passed and 0 failed.
+Test passed.
